@@ -5,9 +5,10 @@
 
 > Detect the Language of Text
 
-[![Linux Build Status](https://travis-ci.org/MangoTheCat/franc.svg?branch=master)](https://travis-ci.org/MangoTheCat/franc)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/franc.svg?branch=master)](https://travis-ci.org/Gaborcsardi/franc)
 [![Windows Build
-status](https://ci.appveyor.com/api/projects/status/github/mangothecat/franc?svg=true)](https://ci.appveyor.com/project/gaborcsardi/franc)
+status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/franc?svg=true)](https://ci.appveyor.com/project/gaborcsardi/franc)
 [![](http://www.r-pkg.org/badges/version/franc)](http://www.r-pkg.org/pkg/franc)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/franc)](http://www.r-pkg.org/pkg/franc)
 
@@ -20,7 +21,7 @@ https://github.com/wooorm/franc.
 
 
 ```r
-devtools::install_github("mangothecat/franc")
+install.packages("franc")
 ```
 
 ## Usage
@@ -161,4 +162,4 @@ head(franc_all("O Brasil caiu 26 posições", min_speakers = 0))
 ## License
 
 MIT © [Mango Solutions](https://github.com/mangothecat), Titus Wormer,
-Maciej Ceglowski, Jacob R. Rideout and Kent S. Johnson.
+Maciej Ceglowski, Jacob R. Rideout, Kent S. Johnson, Gábor Csárdi
