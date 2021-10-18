@@ -1,4 +1,8 @@
 
+# 1.1.4
+
+No user visible changes.
+
 # 1.1.3
 
 * Script detection is now better. Previous versions ignored some characters,
